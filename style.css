@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+    background-color: #1f2c4e;
+    color: white;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background: transparent;
+    padding: 20px 0;
+  }
+  
+  .navbar .nav-link {
+    color: white !important;
+    margin-right: 15px;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #49a7f3 !important;
+  }
+.container .navbar-brand
+{
+  color: white;
+}
+  /* Hero Section */
+  .hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #49a7f3;
+    border: none;
+  }
+  
+  .btn-outline-light {
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .btn-outline-light:hover {
+    background: white;
+    color: #1f2c4e;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
